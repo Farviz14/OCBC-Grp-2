@@ -96,7 +96,7 @@ export const CreateAccountPage = (props) => {
                 <input id="email" type="email" name="email" />
                 <label htmlFor="password">Password</label>
                 <input id="password" type="password" name="password" />
-                <input value="Create Account" className="btn" type="submit" />
+                <input value="Create Account" className="btn" id="add" type="submit" />
             </form>
         </section>
     )

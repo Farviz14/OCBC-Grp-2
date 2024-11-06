@@ -29,7 +29,7 @@ export const LoginPage = (props) => {
             <input id="username" autoComplete="off" onChange={onChangeUsername}  value={username} type="text" />
             <label htmlFor="password">Password</label>
             <input id="password" autoComplete="off" onChange={onChangePassword} value={password} type="password" />
-            <button type="submit" className="btn">Login</button>
+            <button type="submit" className="btn" id="loginbtn">Login</button>
           </form>
         </div>
       </div>
